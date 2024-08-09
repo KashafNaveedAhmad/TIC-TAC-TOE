@@ -20,10 +20,10 @@ def button_click(Button):
     
 def check_wins():
     global Button1,Button2,Button3,Button4,Button5,Button6,Button7,Button8,Button9
-    if Button1["text"]=="X"and Button2["text"]=="X"and Button3["text"]=="X" or Button4["text"]=="X"and Button5["text"]=="X"and Button6["text"]=="X" or Button7["text"]=="X"and Button8["text"]=="X"and Button9["text"]=="X"or Button3["text"]=="X"and Button5["text"]=="X"and  Button7["text"]=="X" or Button1["text"]=="X"and Button5["text"]=="X"and Button9["text"]=="X" or Button2["text"]=="X"and Button5["text"]=="X"and Button8["text"]=="X":
+    if Button1["text"]=="X"and Button2["text"]=="X"and Button3["text"]=="X" or Button4["text"]=="X"and Button5["text"]=="X"and Button6["text"]=="X" or Button7["text"]=="X"and Button8["text"]=="X"and Button9["text"]=="X"or Button3["text"]=="X"and Button5["text"]=="X"and  Button7["text"]=="X" or Button1["text"]=="X"and Button5["text"]=="X"and Button9["text"]=="X" or Button2["text"]=="X"and Button5["text"]=="X"and Button8["text"]=="X" or Button1["text"]=="X"and Button4["text"]=="X"and Button7["text"]=="X" or Button3["text"]=="X"and Button6["text"]=="X"and Button9["text"]=="X":
         messagebox.showinfo("TIC TAC TOE ","PLAYER 1 WINS!!")
         exit()
-    elif Button1["text"]=="O"and Button2["text"]=="O"and Button3["text"]=="O"or Button4["text"]=="O"and Button5["text"]=="O"and Button6["text"]=="O"or Button7["text"]=="O"and Button8["text"]=="O"and Button9["text"]=="O"or Button3["text"]=="O"and Button5["text"]=="O" and Button7["text"]=="O"or Button1["text"]=="O"and Button5["text"]=="O"and Button9["text"]=="O" or Button2["text"]=="O"and Button5["text"]=="O"and Button8["text"]=="O":
+    elif Button1["text"]=="O"and Button2["text"]=="O"and Button3["text"]=="O"or Button4["text"]=="O"and Button5["text"]=="O"and Button6["text"]=="O"or Button7["text"]=="O"and Button8["text"]=="O"and Button9["text"]=="O"or Button3["text"]=="O"and Button5["text"]=="O" and Button7["text"]=="O"or Button1["text"]=="O"and Button5["text"]=="O"and Button9["text"]=="O" or Button2["text"]=="O"and Button5["text"]=="O"and Button8["text"]=="O"or Button1["text"]=="O"and Button4["text"]=="O"and Button7["text"]=="O" or Button3["text"]=="O"and Button6["text"]=="O"and Button9["text"]=="O":
         messagebox.showinfo("TIC TAC TOE ","PLAYER 2 WINS!!")
         exit()
     elif checked==8:
