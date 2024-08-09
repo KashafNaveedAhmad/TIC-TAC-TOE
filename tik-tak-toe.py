@@ -51,8 +51,6 @@ Button8=Button(main,text="",font=("arial",45,"bold"),bg="#1d3f5c",fg="grey",widt
 Button8.grid(row=3,column=1)
 Button9=Button(main,text="",font=("arial",45,"bold"),bg="#1d3f5c",fg="grey",width=3,command=lambda: button_click(Button9))
 Button9.grid(row=3,column=2)
-
-     
        
 main.mainloop()
 
